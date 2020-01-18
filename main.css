@@ -1,3 +1,58 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
 body{
-    background-color:lightgrey;
+    background-color:#fefeff;
+    font-family: 'Montserrat', sans-serif;
+    border-right: 2vw solid #fefeff;
+    border-left: 2vw solid #fefeff;
+    height: 100%;
+    text-align: left;
+}
+
+
+header {
+    background-image: url(https://miro.medium.com/max/6016/1*g7fENKsVOTTfmFVu48I09Q.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: fit-content;
+    border-top: 2vh solid #fefeff;
+    border-radius: 3rem;
+    text-align:center;
+    overflow:auto;
+    padding:2rem;
+    
+  }
+.alert{
+    border-radius:25px;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+.container-fluid{
+    height: fit-content;
+    background-color: #d6efff;
+    border-radius:25px;
+}
+
+header h1{
+    vertical-align: middle;
+    color:#fefeff;
+    font-weight: bolder;
+}
+
+#name h1{
+    border: 1px solid #fefeff;
+    white-space:nowrap;
+    padding-left:.5rem;
+    padding-right:.5rem;
+    width:fit-content;
+}
+
+#bio p{
+    color:#fefeff;
+    text-align:left;
 }
