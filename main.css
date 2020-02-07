@@ -1,0 +1,122 @@
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    background-color:#fefeff;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    text-align: left;
+}
+
+.site.header{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align:center;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+}
+
+.site.header a{
+    color: #333333;
+}
+
+a:hover{
+    text-decoration:none;
+    color: #777777;
+}
+
+.site.header p{
+    color: #555555;
+}
+
+#navbarNavDropdown{
+    text-align:center;
+}
+
+#prehead {
+    background-image: url(https://miro.medium.com/max/6016/1*g7fENKsVOTTfmFVu48I09Q.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: fit-content;
+    border-top: 2vh solid #fefeff;
+    border-radius: 3rem;
+    text-align:center;
+    overflow:auto;
+    padding:2rem;
+    border-right: 2vw solid #fefeff;
+    border-left: 2vw solid #fefeff;
+    
+}
+
+.alert{
+    border-radius:25px;
+}
+
+.container-fluid{
+    height: fit-content;
+    background-color: #d6efff;
+    border-radius:25px;
+}
+
+header h1{
+    vertical-align: middle;
+    color:#fefeff;
+    font-weight: bolder;
+}
+
+/* #name h1{
+    white-space:nowrap;
+    padding-left:.5rem;
+    padding-right:.5rem;
+    width:fit-content;
+} */
+
+#bio p{
+    color:#fefeff;
+    /* text-align:left; */
+}
+
+.nav-item{
+    padding:0px 20px 0px 20px;
+}
+
+.dropdown-menu.show a img{
+    margin-right:10px;
+}
+
+.dropdown-menu.show{
+    max-width:fit-content;
+}
+
+.container2{
+    margin-top:40px;
+    text-align:center;
+    vertical-align:middle;
+    margin-bottom: 40px;
+    padding: 0px 60px 0px 60px;
+}
+
+.container2 .col-sm{
+    margin: 0px 20px 0px 20px;
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+    padding:10px;
+}
+
+#head .col-sm{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top: 1px solid #999999;
+    font-size: large;
+}
+
+#item .col-sm{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom: 1px solid #999999;
+    text-align:left;
+}
