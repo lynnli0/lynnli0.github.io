@@ -280,6 +280,9 @@ hr{
     }
 
 @media (max-width: 767px) {
+    .avatar img, li .timeline-panel {
+    filter: none;
+}
     ul.timeline:before {
         left: 40px;
     }
