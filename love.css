@@ -27,6 +27,7 @@ body{
 
 .container1 .txt_body{
     width:fit-content;
+    max-width:-moz-fit-content;
     text-align:center;
     margin:auto;
 }
